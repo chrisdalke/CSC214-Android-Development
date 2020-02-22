@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context="csc214.project03.Fragments.AchievementsFragment">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        style="@style/HeaderTextView"
+        android:text="Achievement Progress"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_transparent"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:id="@+id/achievement_progress_text"
+                android:text="0/0 Achievements unlocked. Keep up the good work!"/>
+
+
+            android:src="@drawable/ic_edit_light"/>
+        </RelativeLayout>
+
+
+    <TextView
+        style="@style/HeaderTextView"
+        android:text="Achievements"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/achievementRecyclerView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</FrameLayout>

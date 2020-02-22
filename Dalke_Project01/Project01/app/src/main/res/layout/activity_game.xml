@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="csc214.project01.GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/scoreboardFragmentHolder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/gameFragmentHolder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/scoreboardBackgroundColor"
+        >
+
+        <Button
+            android:id="@+id/quitGameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quitButtonLabel"
+            android:layout_alignParentStart="true"/>
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

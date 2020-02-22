@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="csc214.project01.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/scoreboardFragmentHolder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/scoreboardBackgroundColor"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/connect4Button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/connect_4"/>
+
+            <Button
+                android:id="@+id/hangmanButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hangman"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/scoreboardBackgroundColor"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/hotterColderButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hotter_colder"/>
+
+            <Button
+                android:id="@+id/ticTacToeButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tic_tac_toe"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/scoreboardBackgroundColor"
+        >
+
+
+        <Button
+            android:id="@+id/setNamesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_names"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/resetScoreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/reset_score"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

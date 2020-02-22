@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTopBG"
+    tools:context="csc214.assignment05.TopFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/messageReceivedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="@string/no_message_received"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"/>
+        <EditText
+            android:id="@+id/messageResponseEdit"
+            android:hint="@string/enter_a_message_to_send_back"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"/>
+        <Button
+            android:id="@+id/messageResponseButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/send_back"/>
+
+    </LinearLayout>
+
+</FrameLayout>

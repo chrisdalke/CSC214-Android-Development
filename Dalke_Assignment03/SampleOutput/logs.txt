@@ -1,0 +1,12 @@
+02-13 21:42:02.358 2531-2531/csc214.assignment03 I/Dalke03: Application Started.
+02-13 21:42:02.376 2531-2531/csc214.assignment03 I/Dalke03: Application Resumed.
+02-13 21:42:20.556 2531-2531/csc214.assignment03 I/Dalke03: Application Paused.
+02-13 21:42:20.558 2531-2531/csc214.assignment03 I/Dalke03: Application Stopped.
+02-13 21:42:20.558 2531-2531/csc214.assignment03 I/Dalke03: Application Destroyed.
+02-13 21:42:20.835 2531-2531/csc214.assignment03 I/Dalke03: Application Started.
+02-13 21:42:20.840 2531-2531/csc214.assignment03 I/Dalke03: Application Resumed.
+02-13 21:42:28.194 2531-2531/csc214.assignment03 I/Dalke03: Application Paused.
+02-13 21:42:28.197 2531-2531/csc214.assignment03 I/Dalke03: Application Stopped.
+02-13 21:42:28.197 2531-2531/csc214.assignment03 I/Dalke03: Application Destroyed.
+02-13 21:42:28.549 2531-2531/csc214.assignment03 I/Dalke03: Application Started.
+02-13 21:42:28.553 2531-2531/csc214.assignment03 I/Dalke03: Application Resumed.

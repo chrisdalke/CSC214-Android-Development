@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment04</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="editFontButtonLabel">Edit Font</string>
+    <string name="editMessageButtonLabel">Edit Message</string>
+    <string name="sectionFontStyleProperties">Font Style Properties</string>
+    <string name="sectionFontColor">Font Color</string>
+    <string name="sectionFontSize">Font Size</string>
+    <string name="boldToggleText">Bold</string>
+    <string name="italicToggleText">Italic</string>
+    <string name="underlineToggleText">Underline</string>
+    <string name="editMessageTextHint">Edit Message Text</string>
+</resources>

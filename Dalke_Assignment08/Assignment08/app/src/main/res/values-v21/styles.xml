@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/greener</item>
+        <item name="colorPrimaryDark">@color/greenest</item>
+        <item name="colorAccent">@color/green</item>
+        <item name="android:colorBackground">@color/darkgrey</item>
+        <item name="android:buttonStyle">@style/ThemedButton</item>
+    </style>
+
+    <style name="ThemedButton">
+        <item name="android:background">@drawable/themed_button_selector</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+    </style>
+
+    <style name="ThemedPanel">
+        <item name="android:background">@color/greener</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+</resources>

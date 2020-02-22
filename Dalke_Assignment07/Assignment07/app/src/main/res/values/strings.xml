@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment07</string>
+    <string name="add_game">Add Game</string>
+    <string name="publisher">Publisher: </string>
+    <string name="genre">Genre: </string>
+    <string name="description">Description: </string>
+    <string name="reset_list">Reset List</string>
+</resources>

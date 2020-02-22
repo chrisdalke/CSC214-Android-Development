@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_gradient"
+    tools:context="csc214.project03.Fragments.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weekly_goal_header"
+                style="@style/HeaderTextView"
+                android:text="Weekly Goal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_transparent"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <com.github.lzyzsd.circleprogress.DonutProgress
+                    android:id="@+id/donut_weekly_progress"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    custom:donut_unfinished_color="@color/black_transparent"
+                    custom:donut_finished_color="@color/white_transparent"
+                    custom:donut_text_color="@color/black_transparent"
+                    custom:donut_progress="0"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/weekly_goal_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="weekly goal message"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:padding="4dp"/>
+                    <TextView
+                        android:id="@+id/weekly_goal_mileage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="weekly goal mileage"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:padding="4dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/ic_edit_light"
+                        android:textColor="@color/black_transparent"
+                        android:id="@+id/weekly_goal_button"
+                        android:padding="0dp"
+                        android:text="Edit Weekly Goal"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/monthly_goal_header"
+                style="@style/HeaderTextView"
+                android:text="Monthly Goal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_transparent"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <com.github.lzyzsd.circleprogress.DonutProgress
+                    android:id="@+id/donut_monthly_progress"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    custom:donut_unfinished_color="@color/black_transparent"
+                    custom:donut_finished_color="@color/white_transparent"
+                    custom:donut_text_color="@color/black_transparent"
+                    custom:donut_progress="0"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/monthly_goal_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="monthly goal message"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:padding="4dp"/>
+                    <TextView
+                        android:id="@+id/monthly_goal_mileage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="monthly goal mileage"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:padding="4dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/ic_edit_light"
+                        android:drawableTint="@color/black_transparent"
+                        android:textColor="@color/black_transparent"
+                        android:id="@+id/monthly_goal_button"
+                        android:padding="0dp"
+                        android:text="Edit Monthly Goal"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

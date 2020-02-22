@@ -1,0 +1,25 @@
+I/csc214.assignment05.TopFragment: Called onAttach lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onAttach lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onCreate lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onActivityCreated lifecycle method for fragment.
+I/csc214.assignment05.BottomFragment: Called onAttach lifecycle method for fragment.
+I/csc214.assignment05.BottomFragment: Called onAttach lifecycle method for fragment.
+I/csc214.assignment05.BottomFragment: Called onCreate lifecycle method for fragment.
+I/csc214.assignment05.BottomFragment: Called onActivityCreated lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onStart lifecycle method for fragment.
+I/csc214.assignment05.BottomFragment: Called onStart lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onResume lifecycle method for fragment.
+I/csc214.assignment05.BottomFragment: Called onResume lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onAttach lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onAttach lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onCreate lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onActivityCreated lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onStart lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onResume lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onAttach lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onAttach lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onCreate lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onActivityCreated lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onStart lifecycle method for fragment.
+I/csc214.assignment05.TopFragment: Called onResume lifecycle method for fragment.
+Application terminated.

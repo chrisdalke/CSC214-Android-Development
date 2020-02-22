@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="csc214.project03">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Coach"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.AddRunActivity"
+            android:label="Add Run" />
+        <activity
+            android:name=".Activities.SettingsActivity"
+            android:label="Settings" />
+        <activity
+            android:name=".Activities.ViewRunActivity"
+            android:label="View Run" />
+        <activity
+            android:name=".Activities.Tools.WeatherToolActivity"
+            android:label="Weather Tool" />
+        <activity
+            android:name=".Activities.Tools.MapToolActivity"
+            android:label="Map Tool" />
+        <activity
+            android:name=".Activities.Tools.SplitToolActivity"
+            android:label="Split Tool" />
+        <activity
+            android:name=".Activities.Tools.StopwatchActivity"
+            android:label="Stopwatch Tool" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAE3A2WNpw3jM8v7X2vdp8svpf7cga-wJ0" />
+
+        <service
+            android:name=".Service.LocationService"
+            android:exported="false" />
+        <service
+            android:name=".Service.WeatherService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".Service.Receivers.LocationReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name=".Service.Receivers.WeatherReceiver"
+            android:enabled="true"
+            android:exported="false"></receiver>
+    </application>
+
+</manifest>

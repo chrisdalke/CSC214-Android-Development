@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_account_modify"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="csc214.project02.Activities.Account.AccountModifyActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@drawable/shadow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/edit_profile_image_view"
+                android:layout_gravity="fill"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_default_profile"/>
+
+            <Button
+                android:id="@+id/edit_profile_image_button"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="@color/blue"
+                android:text="Add Profile Picture"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@drawable/shadow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Enter some information about yourself."/>
+                <EditText
+                    android:id="@+id/account_create_full_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Full Name"/>
+                <EditText
+                    android:id="@+id/account_create_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Location"/>
+                <EditText
+                    android:id="@+id/account_create_bio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Bio"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

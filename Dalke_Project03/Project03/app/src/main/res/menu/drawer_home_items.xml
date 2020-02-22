@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Pages">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_page_home"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_page_achievements"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Achievements" />
+                <item
+                    android:id="@+id/nav_page_coach"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Personal Coach" />
+                <item
+                    android:id="@+id/nav_page_settings"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Settings" />
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Activities">
+        <menu>
+            <item
+                android:id="@+id/nav_activity_start_run"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Start Run" />
+            <item
+                android:id="@+id/nav_activity_add_past_run"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Add Past Run" />
+        </menu>
+    </item>
+</menu>
+
+

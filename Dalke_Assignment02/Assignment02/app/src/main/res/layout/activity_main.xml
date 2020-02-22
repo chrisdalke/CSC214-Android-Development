@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="csc214.assignment02.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/toastButton1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toastButtonText1"/>
+
+        <Button
+            android:id="@+id/toastButton2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toastButtonText2"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/numberDecrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/numberDecrementButtonText"/>
+
+        <TextView
+            android:id="@+id/numberDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="@string/numberDefaultValue"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:layout_toRightOf="@id/numberDecrement"/>
+
+        <Button
+            android:id="@+id/numberIncrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/numberIncrementButtonText"
+            android:layout_toRightOf="@id/numberDisplay"/>
+
+
+        <Button
+            android:id="@+id/numberReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/numberIncrement"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/numberResetButtonText"/>
+    </RelativeLayout>
+</RelativeLayout>

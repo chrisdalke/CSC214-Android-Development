@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment02</string>
+    <string name="toastButtonText1">Click Me!</string>
+    <string name="toastButtonText2">Another Button</string>
+    <string name="numberDecrementButtonText">-1</string>
+    <string name="numberIncrementButtonText">+1</string>
+    <string name="numberResetButtonText">Reset Counter</string>
+    <string name="numberDefaultValue">100</string>
+</resources>

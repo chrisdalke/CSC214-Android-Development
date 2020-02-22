@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Assignment03</string>
+    <string name="orientationChangesLabelDefault">Display Rotated 0 Times!</string>
+</resources>
